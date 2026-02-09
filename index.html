@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>DxrkGamer | Links Oficiais</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background:
+        radial-gradient(circle at top, #2a2a2a 0%, transparent 40%),
+        linear-gradient(160deg, #000000, #141414, #2b2b2b);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+      padding: 36px 26px;
+      text-align: center;
+      background: linear-gradient(180deg, #0b0b0b, #1a1a1a);
+      border-radius: 22px;
+      box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.9),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .container::before {
+      content: "";
+      position: absolute;
+      top: -60px;
+      left: -60px;
+      width: 200px;
+      height: 200px;
+      background: radial-gradient(circle, #ffffff22, transparent 70%);
+      border-radius: 50%;
+    }
+
+    .container::after {
+      content: "";
+      position: absolute;
+      bottom: -80px;
+      right: -80px;
+      width: 260px;
+      height: 260px;
+      background: radial-gradient(circle, #ffffff14, transparent 70%);
+      border-radius: 50%;
+    }
+
+    .profile {
+      position: relative;
+      z-index: 1;
+      margin-bottom: 26px;
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 14px;
+      border-radius: 50%;
+      background-image: url("6B9EF2A3-93E2-4A66-8202-7B1ED9A050F2.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border: 3px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+    }
+
+    h1 {
+      font-size: 26px;
+      margin: 0;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .subtitle {
+      font-size: 13px;
+      color: #bdbdbd;
+      margin-top: 6px;
+    }
+
+    .divider {
+      height: 1px;
+      width: 100%;
+      background: linear-gradient(90deg, transparent, #ffffff22, transparent);
+      margin: 26px 0;
+    }
+
+    a.link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-decoration: none;
+      color: #ffffff;
+      padding: 16px 18px;
+      margin: 14px 0;
+      border-radius: 16px;
+      font-size: 16px;
+      font-weight: 500;
+      background: linear-gradient(135deg, #2c2c2c, #3a3a3a);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      transition: all 0.25s ease;
+      position: relative;
+      z-index: 1;
+    }
+
+    a.link span {
+      opacity: 0.7;
+      font-size: 14px;
+    }
+
+    a.link:hover {
+      transform: translateY(-2px) scale(1.015);
+      background: linear-gradient(135deg, #3f3f3f, #4a4a4a);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #9e9e9e;
+      opacity: 0.6;
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="profile">
+      <div class="avatar"></div>
+      <h1>DxrkGamer</h1>
+      <div class="subtitle">Streamer • Roblox • Lives ao vivo</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <a class="link" href="https://discord.gg/3Qg3RtKyNp" target="_blank">
+      Discord Link
+      <span>Comunidade</span>
+    </a>
+
+    <a class="link" href="https://livepix.gg/dxrkgamer" target="_blank">
+      Live Pix
+      <span>Doações & Pagamentos</span>
+    </a>
+
+    <a class="link" href="https://www.tiktok.com/@dxrkgamer_tt?_r=1&_t=ZS-93mJTn66rYq" target="_blank">
+      TikTok Perfil
+      <span>Conteúdo</span>
+    </a>
+
+    <a class="link" href="https://youtube.com/@dxrkgamer?si=CZ-RCtP7uM5qFB6R" target="_blank">
+      YouTube
+      <span>Vídeos & Shorts</span>
+    </a>
+
+    <footer>
+      © DxrkGamer • Todos os direitos reservados
+    </footer>
+  </div>
+</body>
+</html>
